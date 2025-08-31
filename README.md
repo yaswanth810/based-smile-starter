@@ -1,73 +1,146 @@
-# Welcome to your Lovable project
+# Based Smiles - Web3 Smile-to-Earn Application
 
-## Project info
+A beautiful Web3 frontend prototype for Based Smiles, built with React, TypeScript, and Tailwind CSS.
 
-**URL**: https://lovable.dev/projects/88bf4257-48f4-4079-b0b4-d1c1a83986c1
+## 🎯 Project Overview
 
-## How can I edit this code?
+Based Smiles is a smile-to-earn Web3 application where users can:
+- Capture authentic smiles using camera or file upload
+- Get AI-powered smile verification and scoring
+- Earn SMILE tokens based on quality scores
+- View winning smiles in the community gallery
+- Track earnings and performance in their profile
 
-There are several ways of editing your application.
+## 🛠️ Technology Stack
 
-**Use Lovable**
+- **Frontend**: React 18 + TypeScript + Vite
+- **Styling**: Tailwind CSS with custom Web3 design system
+- **UI Components**: Shadcn/ui with custom variants
+- **Icons**: Lucide React
+- **Routing**: React Router v6
+- **State Management**: TanStack Query
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/88bf4257-48f4-4079-b0b4-d1c1a83986c1) and start prompting.
+## 🎨 Design System
 
-Changes made via Lovable will be committed automatically to this repo.
+The app features a Base blockchain-inspired design with:
+- **Primary Colors**: Base blue (#0052FF) to purple gradients
+- **Accent Colors**: Bright purple, cyan highlights
+- **Theme**: Dark mode with glass morphism effects
+- **Typography**: Modern crypto-friendly fonts
+- **Animations**: Smooth transitions and hover effects
 
-**Use your preferred IDE**
+## 📱 Features
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Landing Page (/)
+- Hero section with Web3 aesthetics
+- How it works explanation
+- Call-to-action buttons
+- Live statistics display
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Smile Capture (/smile)
+- Camera interface mockup
+- File upload functionality 
+- Reward preview
+- Processing simulation
 
-Follow these steps:
+### Gallery (/gallery)
+- Top-scoring smiles showcase
+- Community stats
+- Ranking system
+- Reward information
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Profile (/profile)
+- Wallet connection UI
+- Personal statistics
+- Recent activity
+- Earnings tracking
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🚀 Getting Started
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Prerequisites
+- Node.js (v16+ recommended)
+- npm or yarn
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+### Installation
+
+1. Clone this repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open [http://localhost:8080](http://localhost:8080) in your browser
+
+## 🔗 Extending to Full-Stack
+
+This frontend prototype can be extended into a complete Web3 application by adding:
+
+### Backend Components
+- **Smart Contracts**: Solidity contracts on Base Sepolia
+- **API Server**: Node.js/Express for oracle callbacks
+- **AI Oracle**: Openputer AI integration for smile verification
+- **IPFS Storage**: Image hash storage
+- **Wallet Integration**: Privy authentication
+
+### Recommended Architecture
+```
+/frontend → This React app
+/contracts → Solidity + Hardhat setup  
+/backend → Express server
+/scripts → Deployment scripts
+/.github/workflows → CI/CD pipelines
 ```
 
-**Edit a file directly in GitHub**
+## 🔧 Development with Replit Agent v2
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+To continue development in Replit Agent v2:
 
-**Use GitHub Codespaces**
+1. Import this repository into Replit
+2. The project includes all necessary configuration files
+3. Use Replit's built-in tools for:
+   - Smart contract development with Hardhat
+   - Backend API development
+   - Database integration
+   - Deployment automation
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📦 Build & Deploy
 
-## What technologies are used for this project?
+### Production Build
+```bash
+npm run build
+```
 
-This project is built with:
+### Preview Build
+```bash
+npm run preview
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+The app is optimized for deployment on:
+- Vercel
+- Netlify  
+- GitHub Pages
+- Any static hosting service
 
-## How can I deploy this project?
+## 🎨 Customization
 
-Simply open [Lovable](https://lovable.dev/projects/88bf4257-48f4-4079-b0b4-d1c1a83986c1) and click on Share -> Publish.
+The design system is fully customizable through:
+- `src/index.css` - CSS variables and design tokens
+- `tailwind.config.ts` - Tailwind theme configuration
+- `src/components/ui/` - Component variants
 
-## Can I connect a custom domain to my Lovable project?
+## 📄 License
 
-Yes, you can!
+This project is open source and available under the MIT License.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 🤝 Contributing
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Contributions welcome! This is a prototype meant to showcase the vision for Based Smiles.
+
+---
+
+**Built with ❤️ for the Base ecosystem**
